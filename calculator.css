@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    user-select: none;
+}
+
+.heading{
+    text-align: center;
+    font-size: 60px;
+    color: #2193b0;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grid{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: black;
+}
+
+table {
+    max-width: 200px;
+}
+
+table, tr, td {
+    border: 1px black;
+}
+td {
+    max-width: 100px !important;
+    overflow-wrap: break-word;
+}
+ 
+
+.btn{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(18, 184, 209);
+    outline-width: 0px !important;
+}
+ 
+.numbers{
+     background-color: rgb(144, 118, 238);
+}
+
+.remove-btn{
+     background-color: rgb(126, 164, 223);
+}
+
+.final-btn{
+     background-color: rgb(69, 125, 245);
+}
+
+ 
+ 
+
+#resultContainer {
+    border: 1px solid black;
+    background-color: whitesmoke;
+    height: 70px;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+}
